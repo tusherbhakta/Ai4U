@@ -13,7 +13,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider appearance={{
+      baseTheme: "dark",
+    }}>
       <html lang="en" suppressContentEditableWarning>
         <body
           className={`${inter.className}`}
