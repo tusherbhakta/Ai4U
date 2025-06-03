@@ -152,3 +152,15 @@
     rgba(0, 0, 0, 0.82)
   );
 }
+
+
+
+@layer utilities {
+  .custom-gradient-bg {
+    @apply bg-gradient-to-b from-gray-400 via-gray-200 to-gray-600;
+  }
+
+  .custom-gradient-title {
+    @apply bg-gradient-to-b from-gray-400 via-gray-200 to-gray-600 text-transparent bg-clip-text tracking-tighter pb-2 pr-2;
+  }
+}
