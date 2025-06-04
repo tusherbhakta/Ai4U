@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Feature from "@/components/ui/feature";
 import HeroSection from "@/components/ui/hero";
+import HowItWorks from "@/components/ui/howItWorks";
 import Stat from "@/components/ui/stat";
 import { Divide } from "lucide-react";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroSection></HeroSection>
       <Feature></Feature>
       <Stat></Stat>
+      <HowItWorks></HowItWorks>
     </div>
     
   );
