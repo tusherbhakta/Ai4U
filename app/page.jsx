@@ -3,6 +3,7 @@ import Feature from "@/components/ui/feature";
 import HeroSection from "@/components/ui/hero";
 import HowItWorks from "@/components/ui/howItWorks";
 import Stat from "@/components/ui/stat";
+import Testimonial from "@/components/ui/testimonial";
 import { Divide } from "lucide-react";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Feature></Feature>
       <Stat></Stat>
       <HowItWorks></HowItWorks>
+      <Testimonial></Testimonial>
     </div>
     
   );
