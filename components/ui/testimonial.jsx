@@ -80,7 +80,7 @@ const Testimonial = () => {
         </h2>
 
         {/* 🟡 Glowing vertical line in the center */}
-        <div className="absolute top-40 left-1/2 transform -translate-x-1/2 w-1 h-full z-0">
+        <div className="absolute top-30 left-1/2 transform -translate-x-1/2 w-1 h-full z-0">
           <motion.div
             className="w-1 bg-gradient-to-b from-primary/30 to-primary rounded-full shadow-md"
             style={{ height: glowHeight }}
